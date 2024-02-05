@@ -60,8 +60,8 @@
             </span>
           {%- endif -%}
           {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ article.author }}</span>
+            <span class="caption-with-letter-spacing">
+              {{ article.metafields.custom.author | metafield_tag }}
             </span>
           {%- endif -%}
           {%- if block.settings.blog_show_image_source and article.metafields.image_source -%}

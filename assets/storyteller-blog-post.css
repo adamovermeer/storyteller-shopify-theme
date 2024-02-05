@@ -5,5 +5,5 @@
 
 .storyteller-blog-content {
    font-family: var(--font-blog-family);
-   font-size: var(--font-blog-scale);
+   font-size: calc(var(--font-blog-scale) * 1rem);
 }
