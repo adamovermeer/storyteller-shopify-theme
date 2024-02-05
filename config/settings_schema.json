@@ -56,13 +56,13 @@
             "type": "color",
             "id": "text",
             "label": "t:settings_schema.colors.settings.text.label",
-            "default": "#121212"
+            "default": "#1c1b1f"
           },
           {
             "type": "color",
             "id": "button",
             "label": "t:settings_schema.colors.settings.button_background.label",
-            "default": "#121212"
+            "default": "#bd2058"
           },
           {
             "type": "color",
@@ -80,7 +80,7 @@
             "type": "color",
             "id": "shadow",
             "label": "t:settings_schema.colors.settings.shadow.label",
-            "default": "#121212"
+            "default": "#1c1b1f"
           }
         ],
         "role": {
@@ -98,6 +98,12 @@
           "on_secondary_button": "secondary_button_label",
           "secondary_button_border": "secondary_button_label"
         }
+      },
+      {
+        "type": "image_picker",
+        "id": "background_texture",
+        "label": "Background texture",
+        "info": "A repeated texture image that will fill the background on select elements."
       }
     ]
   },
@@ -111,7 +117,7 @@
       {
         "type": "font_picker",
         "id": "type_header_font",
-        "default": "assistant_n4",
+        "default": "montserrat_n6",
         "label": "t:settings_schema.typography.settings.type_header_font.label",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
@@ -132,13 +138,30 @@
       {
         "type": "font_picker",
         "id": "type_body_font",
-        "default": "assistant_n4",
+        "default": "montserrat_n4",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       },
       {
         "type": "range",
         "id": "body_scale",
+        "min": 100,
+        "max": 130,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.body_scale.label",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_blog_font",
+        "default": "times_new_roman_n4",
+        "label": "Blog body font",
+        "info": "The font used for the blog body. Should be a serif font for legibility."
+      },
+      {
+        "type": "range",
+        "id": "blog_scale",
         "min": 100,
         "max": 130,
         "step": 5,
@@ -268,7 +291,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.global.settings.corner_radius.label",
-        "default": 0
+        "default": 12
       },
       {
         "type": "header",
@@ -282,7 +305,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 0
+        "default": 20
       },
       {
         "type": "range",
@@ -369,7 +392,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 0
+        "default": 20
       },
       {
         "type": "range",
@@ -587,7 +610,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 10
+        "default": 20
       },
       {
         "type": "range",
@@ -722,7 +745,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 10
+        "default": 20
       },
       {
         "type": "range",
@@ -857,7 +880,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 10
+        "default": 0
       },
       {
         "type": "range",
@@ -882,6 +905,51 @@
       {
         "type": "range",
         "id": "blog_card_shadow_blur",
+        "min": 0,
+        "max": 40,
+        "step": 5,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.blur.label",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "Storyteller blog card shadows",
+    "settings": [
+      {
+        "type": "range",
+        "id": "storyteller_blog_card_shadow_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.global.settings.opacity.label",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "storyteller_blog_card_shadow_horizontal_offset",
+        "min": -40,
+        "max": 40,
+        "step": 2,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.horizontal_offset.label",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "storyteller_blog_card_shadow_vertical_offset",
+        "min": -40,
+        "max": 40,
+        "step": 2,
+        "unit": "px",
+        "label": "t:settings_schema.global.settings.vertical_offset.label",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "storyteller_blog_card_shadow_blur",
         "min": 0,
         "max": 40,
         "step": 5,
@@ -1110,7 +1178,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 0
+        "default": 20
       },
       {
         "type": "range",
@@ -1183,7 +1251,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 0
+        "default": 20
       },
       {
         "type": "range",
@@ -1258,7 +1326,7 @@
         "type": "color_scheme",
         "id": "sale_badge_color_scheme",
         "label": "t:settings_schema.badges.settings.sale_badge_color_scheme.label",
-        "default": "scheme-5"
+        "default": "scheme-3"
       },
       {
         "type": "color_scheme",

@@ -1,0 +1,38 @@
+.article-card__excerpt {
+   /* max-height: 0;
+   height: fit-content;
+   overflow: hidden;
+   transition: max-height 200ms ease; */
+
+   font-size: 1.625rem;
+   line-height: 1.7em;
+   margin-bottom: 0.5em;
+}
+
+.blog li .article-card {
+   background-color: var(--color-background);
+   box-shadow: 0 3px 5px rgba(var(--color-shadow), 0.15);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+/* change to hover case */
+@media only screen and (min-width: 750px) {
+   .blog li .article-card {
+      transition: transform 300ms ease, box-shadow 300ms ease;
+   }
+
+   .blog li .article-card:hover {
+      background-color: #f4f0f8;
+      box-shadow: 0 2px 25px rgba(var(--color-shadow), 0.3);
+      transform: scale(105%);
+   }
+
+   .blog li:hover {
+      z-index: 3;
+   }
+
+   /* .blog .article-card:hover .article-card__excerpt {
+      max-height: 5em;
+   } */
+}

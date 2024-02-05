@@ -1,0 +1,31 @@
+.storyteller-image-banner__grid {
+   display: flex;
+   flex-direction: column;
+   width: min(100%, 1200px);
+   gap: 1em;
+   padding: 2rem;
+}
+
+.storyteller-image-banner__text-container {
+   width: 100%;
+}
+
+.storyteller-image-banner__media--small {
+   height: 19.4rem;
+}
+
+.storyteller-image-banner__media--medium {
+   height: 29.6rem;
+}
+
+.storyteller-image-banner__media--large {
+   height: 43.5rem;
+}
+
+@media screen and (min-width: 750px) {
+   .storyteller-image-banner__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4rem;
+   }
+}

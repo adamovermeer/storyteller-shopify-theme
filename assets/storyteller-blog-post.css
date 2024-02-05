@@ -1,0 +1,9 @@
+.article-template__hero-container .media {
+   max-width: 40vw;
+   height: 40vw;
+}
+
+.storyteller-blog-content {
+   font-family: var(--font-blog-family);
+   font-size: var(--font-blog-scale);
+}
