@@ -17,7 +17,7 @@
   assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 
   if section.settings.image_behavior == 'ambient'
-    assign full_width = '120vw'
+    assign full_width = '100vw'
     assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
   endif
   assign fetch_priority = 'auto'
@@ -548,7 +548,7 @@
     {
       "type": "button",
       "name": "t:sections.image-with-text.blocks.button.name",
-      "limit": 2,
+      "limit": 10,
       "settings": [
         {
           "type": "text",

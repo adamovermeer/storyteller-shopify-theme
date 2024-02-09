@@ -1,5 +1,6 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 {{ 'storyteller-blog-post.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   {%- for block in section.blocks -%}
@@ -285,9 +286,9 @@
 
     <div>
       <h2 class="h1" style="margin-bottom: 0.5em">Next up &rarr;</h2>
-      {% if blog.next_article %}
+      {% if blog.previous_article %}
         {% render 'storyteller-blog-card',
-        article: blog.next_article,
+        article: blog.previous_article,
         post-relation: 'Next up:',
         media_aspect_ratio: 1,
         show_image: true,

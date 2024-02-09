@@ -149,6 +149,35 @@
   background-image: var(--background-texture) !important;
 }
 
+.footer__storyteller-social {
+  justify-content: flex-start !important;
+  transform: translate(-1rem, -1rem);
+  margin-bottom: 1.7rem !important;
+}
+
+.footer__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.footer__grid .grid__item,
+.footer__grid .link {
+  width: 100%;
+}
+
+.footer__storyteller-social .icon {
+  height: 3.5rem !important;
+  width: 3.5rem !important;
+}
+
+@media screen and (min-width: 750px) {
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* end custom elements */
 
 .product-card-wrapper .card,
