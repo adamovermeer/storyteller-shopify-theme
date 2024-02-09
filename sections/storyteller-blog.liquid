@@ -2,7 +2,6 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
-{{ 'storyteller-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -25,7 +24,7 @@
     assign posts_displayed = section.settings.post_limit
   endif
 -%}
-<div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog blog-articles color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
@@ -61,7 +60,7 @@
           {% comment %} style="gap: 1rem;" {% endcomment %}
         >
           {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
-            {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
+            {%- for blogArticle in section.settings.blog.articles limit: section.settings.post_limit -%}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
                 class="blog__post grid__item article slider__slide slider__slide--full-width motion-reduce{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -70,9 +69,10 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {% render 'storyteller-article-card',
+                {% render 'storyteller-blog-card',
                   blog: section.settings.blog,
-                  article: article,
+                  article: blogArticle,
+                  flex_direction: 'column',
                   media_aspect_ratio: 1,
                   show_image: section.settings.show_image,
                   show_date: section.settings.show_date,

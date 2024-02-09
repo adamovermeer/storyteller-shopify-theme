@@ -221,13 +221,13 @@
   margin-top: calc(0rem - var(--image-padding));
 }
 
-.card--standard.card--text a::after,
+/* .card--standard.card--text a::after,
 .card--card .card__heading a::after {
   bottom: calc(var(--border-width) * -1);
   left: calc(var(--border-width) * -1);
   right: calc(var(--border-width) * -1);
   top: calc(var(--border-width) * -1);
-}
+} */
 
 .card__heading a::after {
   bottom: 0;

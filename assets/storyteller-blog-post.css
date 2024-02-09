@@ -1,11 +1,36 @@
 .article-template__hero-container .media {
-   max-width: 40vw;
-   height: 40vw;
+   position: static;
+   background: transparent;
+   padding-top: 2em;
+}
+
+.article-template__hero-container .media img {
+   position: static !important;
+   width: auto !important;
+   height: auto !important;
+   max-height: 65vh;
+   max-width: 80vw;
+   margin-inline: auto;
+   border-radius: 12px;
 }
 
 .storyteller-blog-content {
    font-family: var(--font-blog-family);
-   font-size: calc(var(--font-blog-scale) * 1rem);
+   font-size: calc(var(--font-blog-scale) * 1.85rem);
 }
 
-/* Uwu */
+.storyteller-blog-content p {
+   margin-block-end: 1.5em;
+}
+
+.story-grid {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   padding: 1em 0;
+}
+
+.empty-card {
+   padding: 0.5em 2em;
+   border-radius: var(--blog-card-corner-radius);
+}

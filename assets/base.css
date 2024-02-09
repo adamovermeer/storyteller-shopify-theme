@@ -15,9 +15,77 @@
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
+.article-card__excerpt {
+  /* max-height: 0;
+  height: fit-content;
+  overflow: hidden;
+  transition: max-height 200ms ease; */
+
+  font-size: 1.625rem;
+  line-height: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.blog-card:hover .full-unstyled-link {
+  text-decoration: none;
+}
+
+.blog-card {
+  display: flex;
+  gap: 12px;
+  background-color: var(--color-background);
+  border-radius: var(--blog-card-corner-radius) !important;
+  box-shadow: 0 0px 0px rgba(var(--color-shadow), 0);
+  overflow: hidden;
+  transition:
+    box-shadow 200ms ease,
+    transform 200ms ease;
+}
+
+.blog-card.layout-column {
+  flex-direction: column;
+  gap: 0;
+}
+
+.blog-card .card__image {
+  height: auto;
+}
+
+.blog-card .card__content {
+  display: block;
+  padding: 1em;
+  max-height: 100%;
+}
+
+.blog-card img {
+  position: static !important;
+  aspect-ratio: 1/1;
+}
+
+.blog-card:hover {
+  background-color: #f4f0f8;
+  box-shadow: 0 2px 50px rgba(var(--color-shadow), 0.3);
+  transform: scale(103%) translateY(-0.5rem) !important;
+}
+
+/* .blog-card-link-wrapper {
+  height: fit-content;
+  width: fit-content;
+} */
+
 .button:not(.button--secondary) {
   /* background-color: yellow !important; */
   background-image: var(--background-texture);
+}
+
+.storyteller-text-link {
+  margin-top: 0.5em;
+  text-decoration: none !important;
+  font-size: 1.7rem !important;
+}
+
+.storyteller-text-link:hover {
+  text-decoration: underline !important;
 }
 
 /* .animate-texture {
@@ -226,7 +294,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   }
 
   .page-width--narrow {
-    max-width: 72.6rem;
+    max-width: 68rem;
     padding: 0;
   }
 
@@ -1332,7 +1400,7 @@ button.shopify-payment-button__button--unbranded {
   --color-button: var(--color-secondary-button);
   --color-button-text: var(--color-secondary-button-text);
   /* Added for custom Storyteller theme */
-  background-color: rgba(var(--color-button), 0.5);
+  background-color: rgba(var(--color-button), 0.3);
 }
 
 .button:before,

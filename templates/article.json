@@ -13,7 +13,9 @@
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
+            "blog_show_author": false,
+            "blog_show_image_source": true,
+            "blog_show_translator": true
           }
         },
         "share": {
@@ -23,15 +25,26 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
+        },
+        "share_btUzYL": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
-        "content"
-      ]
+        "content",
+        "share_btUzYL"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

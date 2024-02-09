@@ -1,154 +1,89 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "storyteller_image_banner_3hDEjT": {
+      "type": "storyteller-image-banner",
       "blocks": {
-        "heading": {
+        "heading_hhnaUY": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<em>The Last Nomad <\/em>is now available in hardcover and paperback",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_YTbKxi": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>“A brilliant and riveting book... The Last Nomad introduces the reader to the real lives in Somalia and the resilience of its people not only inside the nation but beyond.”<br\/><strong><br\/>—Abdi Nor Iftin, author of Call Me American<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_cLbXMW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read the first chapter",
+            "button_link": "shopify:\/\/products\/the-last-nomad",
+            "button_style_secondary": true
+          }
+        },
+        "button_aDjYKQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Where to buy",
+            "button_link": "shopify:\/\/products\/the-last-nomad",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading_hhnaUY",
+        "text_YTbKxi",
+        "button_cLbXMW",
+        "button_aDjYKQ"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
+        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "round_hero_image": false,
+        "flex_ratio": "1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "hero_image": "shopify:\/\/shop_images\/harcover-and-paperback_2e673ee2-fb14-490c-a927-9ffb2dbdf5ef.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
+    "storyteller_blog_dnjPXj": {
+      "type": "storyteller-blog",
       "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "heading": "Stories",
         "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
+        "blog": "stories",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
+    "multicolumn_BAAfXU": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column_F7aczM": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -157,7 +92,7 @@
             "link": ""
           }
         },
-        "column2": {
+        "column_mfa7X4": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -166,7 +101,7 @@
             "link": ""
           }
         },
-        "column3": {
+        "column_PPWpcH": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -177,34 +112,95 @@
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "column_F7aczM",
+        "column_mfa7X4",
+        "column_PPWpcH"
       ],
       "settings": {
-        "title": "",
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "storyteller_image_banner_7jYD3A": {
+      "type": "storyteller-image-banner",
+      "blocks": {
+        "heading_MwtP4x": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hi, my name is Shugri Salh.",
+            "heading_size": "h1"
+          }
+        },
+        "text_t43cGh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I was born in the desert of Somalia, where I spent my early childhood as a nomad. I emigrated to North America as a refugee from civil war, and now work as an infusion nurse in San Diego, California.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Y7nWiR": {
+          "type": "button",
+          "settings": {
+            "button_label": "More about me →",
+            "button_link": "https:\/\/studioflora.io",
+            "button_style_secondary": false
+          }
+        },
+        "button_bTGqch": {
+          "type": "button",
+          "settings": {
+            "button_label": "The Last Nomad",
+            "button_link": "shopify:\/\/products\/the-last-nomad",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_MwtP4x",
+        "text_t43cGh",
+        "button_Y7nWiR",
+        "button_bTGqch"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "round_hero_image": true,
+        "flex_ratio": "2",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "hero_image": "shopify:\/\/shop_images\/about-the-author-thumbnail.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "storyteller_image_banner_3hDEjT",
+    "storyteller_blog_dnjPXj",
+    "multicolumn_BAAfXU",
+    "storyteller_image_banner_7jYD3A"
   ]
 }

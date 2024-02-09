@@ -1,3 +1,31 @@
+.banner.parallax-container {
+   position: relative;
+   height: fit-content;
+   overflow: hidden;
+   background-color: #f3f0f7;
+}
+
+.banner .parallax-image {
+   position: absolute;
+   top: auto;
+   bottom: 0;
+   height: fit-content !important;
+   transition:
+      opacity 400ms ease,
+      bottom 50ms ease;
+}
+
+.hidden {
+   opacity: 0 !important;
+}
+
+.parallax-image img {
+   position: static !important;
+   margin-inline: auto;
+   min-width: 80vh !important;
+   object-position: bottom center;
+}
+
 .storyteller-image-banner__grid {
    display: flex;
    flex-direction: column;
@@ -10,22 +38,63 @@
    width: 100%;
 }
 
-.storyteller-image-banner__media--small {
-   height: 19.4rem;
+.image-with-text__content {
+   padding: 0.8em !important;
 }
 
-.storyteller-image-banner__media--medium {
-   height: 29.6rem;
+.storyteller-image-banner__media {
+   min-height: auto !important;
 }
 
-.storyteller-image-banner__media--large {
-   height: 43.5rem;
+.storyteller-image-banner__media img {
+   position: static !important;
+   width: auto !important;
+   height: auto !important;
+   max-width: 80vw;
+   max-height: 50vh;
+}
+
+.round_hero_image img {
+   border-radius: 50%;
+   margin-inline: auto;
+}
+
+.button-holder {
+   display: flex;
+   gap: 12px;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.button-holder .button {
+   flex: 1 1 auto;
+}
+
+.hero-text {
+   font-size: 1.7rem;
+   font-weight: 500;
+   margin-bottom: 1.25em;
 }
 
 @media screen and (min-width: 750px) {
    .storyteller-image-banner__grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      flex-direction: row;
       padding: 4rem;
+   }
+
+   .flex-1 {
+      flex: 1;
+   }
+
+   .flex-2 {
+      flex: 2;
+   }
+
+   .flex-3 {
+      flex: 3;
+   }
+
+   .parallax-image img {
+      min-width: 100vw !important;
    }
 }

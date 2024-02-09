@@ -41,6 +41,14 @@
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
+
+      assign header_font_bold = settings.type_header_font | font_modify: 'weight', 'bold'
+      assign header_font_italic = settings.type_header_font | font_modify: 'style', 'italic'
+      assign header_font_bold_italic = header_font_bold | font_modify: 'style', 'italic'
+
+      assign blog_font_bold = settings.type_blog_font | font_modify: 'weight', 'bold'
+      assign blog_font_italic = settings.type_blog_font | font_modify: 'style', 'italic'
+      assign blog_font_bold_italic = blog_font_bold | font_modify: 'style', 'italic'
     %}
 
     {% style %}
@@ -49,6 +57,10 @@
       {{ body_font_italic | font_face: font_display: 'swap' }}
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
+      {{ header_font_bold | font_face: font_display: 'swap' }}
+      {{ header_font_italic | font_face: font_display: 'swap' }}
+      {{ header_font_bold_italic | font_face: font_display: 'swap' }}
+      
       /* Custom storyteller blog font */
       {{ settings.type_blog_font | font_face: font_display: 'swap' }}
       {{ blog_font_bold | font_face: font_display: 'swap' }}
