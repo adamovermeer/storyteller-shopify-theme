@@ -61,14 +61,10 @@
 }
 
 .button-holder {
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
    gap: 12px;
-   flex-wrap: wrap;
    width: 100%;
-}
-
-.button-holder .button {
-   flex: 1 1 0;
 }
 
 .hero-text {

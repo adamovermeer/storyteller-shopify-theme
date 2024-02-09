@@ -32,16 +32,42 @@
             "button_link": "shopify:\/\/products\/the-last-nomad",
             "button_style_secondary": false
           }
+        },
+        "button_AceG47": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "button_DKBYtU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "button_Y68gbf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_hhnaUY",
         "text_YTbKxi",
         "button_cLbXMW",
-        "button_aDjYKQ"
+        "button_aDjYKQ",
+        "button_AceG47",
+        "button_DKBYtU",
+        "button_Y68gbf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -174,7 +200,6 @@
         "button_bTGqch"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
