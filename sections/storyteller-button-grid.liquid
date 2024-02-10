@@ -1,0 +1,94 @@
+{% style %}
+  .button-grid-container {
+    padding: 0.75rem 0 1.5rem;
+  }
+
+  .button-grid {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .button-grid-container h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  @media screen and (min-width: 750px) {
+    .button-grid-container {
+      padding: 1rem 0 3em;
+    }
+
+    .button-grid {
+      display: grid;
+      column-gap: var(--grid-desktop-horizontal-spacing);
+      row-gap: var(--grid-desktop-vertical-spacing);
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+{% endstyle %}
+
+<div class="color-scheme-3 button-grid-container">
+  <div class="page-width">
+    <h2>Get your copy today</h2>
+    <div class="button-grid">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'button' -%}
+            {%- if block.settings.button_label != blank -%}
+              <a
+                {% if block.settings.button_link == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.button_label | escape }}
+              </a>
+            {%- endif -%}
+          {% endcase %}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Storyteller Button Grid",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "t:sections.image-with-text.blocks.button.name",
+        "limit": 10,
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button label",
+            "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+            "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "button_style_secondary",
+            "default": true,
+            "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Storyteller Button Grid"
+      }
+    ]
+  }
+{% endschema %}

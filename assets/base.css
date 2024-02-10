@@ -73,9 +73,11 @@
   width: fit-content;
 } */
 
-.button:not(.button--secondary) {
+.button:not(.button--secondary),
+.button-grid-container {
   /* background-color: yellow !important; */
   background-image: var(--background-texture);
+  background-repeat: repeat;
 }
 
 .storyteller-text-link {

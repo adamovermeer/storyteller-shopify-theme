@@ -220,12 +220,85 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "storyteller_button_grid_QkReQc": {
+      "type": "storyteller-button-grid",
+      "blocks": {
+        "button_WXPCdK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "https:\/\/google.com",
+            "button_style_secondary": true
+          }
+        },
+        "button_BnzfmM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        },
+        "button_rDCWWf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        },
+        "button_AE8mwf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        },
+        "button_Uz8zAD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        },
+        "button_NQK3tR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        },
+        "button_9rCqVL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "button_WXPCdK",
+        "button_BnzfmM",
+        "button_rDCWWf",
+        "button_AE8mwf",
+        "button_Uz8zAD",
+        "button_NQK3tR",
+        "button_9rCqVL"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "storyteller_image_banner_3hDEjT",
     "storyteller_blog_dnjPXj",
     "multicolumn_BAAfXU",
-    "storyteller_image_banner_7jYD3A"
+    "storyteller_image_banner_7jYD3A",
+    "storyteller_button_grid_QkReQc"
   ]
 }
