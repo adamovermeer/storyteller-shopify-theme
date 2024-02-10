@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "storyteller-main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "storyteller_image_banner_zdiQKY": {
+      "type": "storyteller-image-banner",
+      "blocks": {
+        "heading_EN7rKX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hi, my name is Shugri Salh.",
+            "heading_size": "h1"
+          }
+        },
+        "text_mrXBmV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I was born in the desert of Somalia, where I spent my early childhood as a nomad. I emigrated to North America as a refugee from civil war, and now work as an infusion nurse in San Diego, California.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EN7rKX",
+        "text_mrXBmV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "round_hero_image": true,
+        "flex_ratio": "3",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "hero_image": "shopify:\/\/shop_images\/about-the-author-thumbnail.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "storyteller_image_banner_zdiQKY"
+  ]
+}

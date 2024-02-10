@@ -68,6 +68,13 @@
   transform: scale(103%) translateY(-0.5rem) !important;
 }
 
+.media-card iframe,
+.media-card img {
+  border: none;
+  position: static !important;
+  aspect-ratio: 19/10;
+}
+
 /* .blog-card-link-wrapper {
   height: fit-content;
   width: fit-content;

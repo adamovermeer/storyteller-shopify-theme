@@ -292,6 +292,23 @@
       ],
       "settings": {
       }
+    },
+    "storyteller_media_X6YGBw": {
+      "type": "storyteller-media",
+      "settings": {
+        "heading": "Stories",
+        "heading_size": "h1",
+        "blog": "media",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -299,6 +316,7 @@
     "storyteller_blog_dnjPXj",
     "multicolumn_BAAfXU",
     "storyteller_image_banner_7jYD3A",
-    "storyteller_button_grid_QkReQc"
+    "storyteller_button_grid_QkReQc",
+    "storyteller_media_X6YGBw"
   ]
 }
