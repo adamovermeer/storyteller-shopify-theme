@@ -177,7 +177,7 @@
             class="blog__button button"
             aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}"
           >
-            {{ 'sections.featured_blog.view_all' | t }}
+            {{ settings.blog_view_all_text }}
           </a>
         </div>
       {%- endif -%}
@@ -272,6 +272,12 @@
       "id": "show_view_all",
       "default": true,
       "label": "t:sections.featured-blog.settings.show_view_all.label"
+    },
+    {
+      "type": "text",
+      "id": "blog_view_all_text",
+      "default": "View All",
+      "label": "View All text"
     },
     {
       "type": "header",

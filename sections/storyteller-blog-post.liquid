@@ -95,6 +95,30 @@
     {%- endcase -%}
   {%- endfor -%}
 
+  <div class="story-grid page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+
+    <div>
+      <h2 class="h1" style="margin-bottom: 0.5em">Next up &rarr;</h2>
+      {% if blog.previous_article %}
+        {% render 'storyteller-blog-card',
+        article: blog.previous_article,
+        post-relation: 'Next up:',
+        media_aspect_ratio: 1,
+        show_image: true,
+        flex_image: 1,
+        flex_content: 2,
+        show_date: false,
+        show_author: false,
+        show_excerpt: true
+        %}
+      {% else %}<div class="empty-card color-{{ settings.blog_card_color_scheme }}">
+        <h3>No older stories to read.</h3>
+      </div>{% endif %}
+      <a href="{{ blog.url }}" class="link storyteller-text-link">
+        &larr; Back to all stories
+      </a>
+    </div>
+  </div>
 
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
@@ -281,33 +305,6 @@
       </div>
     </div>
   {%- endif -%}
-
-  <div class="story-grid page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-
-    <div>
-      <h2 class="h1" style="margin-bottom: 0.5em">Next up &rarr;</h2>
-      {% if blog.previous_article %}
-        {% render 'storyteller-blog-card',
-        article: blog.previous_article,
-        post-relation: 'Next up:',
-        media_aspect_ratio: 1,
-        show_image: true,
-        flex_image: 1,
-        flex_content: 2,
-        show_date: false,
-        show_author: false,
-        show_excerpt: true
-        %}
-      {% else %}<div class="empty-card color-{{ settings.blog_card_color_scheme }}">
-        <h3>No older stories to read.</h3>
-      </div>{% endif %}
-    </div>
-
-    <div class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      <a href="{{ blog.url }}" class="link storyteller-text-link">
-        &larr; Back to all stories
-      </a>
-    </div>
 </article>
 
 <script type="application/ld+json">
