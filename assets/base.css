@@ -154,6 +154,12 @@
   }
 }*/
 
+.flex.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
 .utility-bar {
   background-image: var(--background-texture) !important;
 }

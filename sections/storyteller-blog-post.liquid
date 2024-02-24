@@ -53,26 +53,28 @@
           >
             {{ article.title | escape }}
           </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_author -%}
-            <span class="circle-divider caption-with-letter-spacing">
-              {{ article.metafields.custom.author | metafield_tag }}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_image_source and article.metafields.image_source -%}
-            <span class="circle-divider caption-with-letter-spacing">
-              {{ article.metafields.custom.image_source | metafield_tag }}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_translator and article.metafields.translator -%}
-            <span class="caption-with-letter-spacing">
-              {{ article.metafields.custom.translator | metafield_tag }}
-            </span>
-          {%- endif -%}
+          <div class="flex column">
+            {%- if block.settings.blog_show_date -%}
+              <span class="caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
+                {{- article.published_at | time_tag: format: 'date' -}}
+              </span>
+            {%- endif -%}
+            {%- if block.settings.blog_show_author -%}
+              <span class="caption-with-letter-spacing">
+                {{ article.metafields.custom.author | metafield_tag }}
+              </span>
+            {%- endif -%}
+            {%- if block.settings.blog_show_image_source and article.metafields.image_source -%}
+              <span class="caption-with-letter-spacing">
+                {{ article.metafields.custom.image_source | metafield_tag }}
+              </span>
+            {%- endif -%}
+            {%- if block.settings.blog_show_translator and article.metafields.translator -%}
+              <span class="caption-with-letter-spacing">
+                {{ article.metafields.custom.translator | metafield_tag }}
+              </span>
+            {%- endif -%}
+          </div>
         </header>
 
       {%- when 'content' -%}
