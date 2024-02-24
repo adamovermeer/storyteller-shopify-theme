@@ -59,12 +59,12 @@
             </span>
           {%- endif -%}
           {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing">
+            <span class="circle-divider caption-with-letter-spacing">
               {{ article.metafields.custom.author | metafield_tag }}
             </span>
           {%- endif -%}
           {%- if block.settings.blog_show_image_source and article.metafields.image_source -%}
-            <span class="caption-with-letter-spacing">
+            <span class="circle-divider caption-with-letter-spacing">
               {{ article.metafields.custom.image_source | metafield_tag }}
             </span>
           {%- endif -%}
