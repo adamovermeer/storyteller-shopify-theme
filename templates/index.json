@@ -63,6 +63,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_jic9b9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LUdjCh": {
+          "type": "heading",
+          "settings": {
+            "heading": "True stories from the Somali people",
+            "heading_size": "h1"
+          }
+        },
+        "text_tTqYDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a child, I lived as a nomad in the desert of Somalia. After the death of my mother, I was sent to an orphanage in Mogadishu before fleeing the Somali civil war and eventually coming to North America as a refugee.<\/p><p>My memoir, <em>The Last Nomad<\/em>, details my amazing journey. But mine is just one of thousands of stories of brave, resilient people overcoming stark adversity. I am passionate about collecting and archiving these true, untold stories of the Somali people. With the help of my team both in Somalia and the US, we collect, translate and illustrate these stories to share with the rest of the world.<\/p><p>It takes time, energy and money to get these stories to you. The best way to support us is to share these stories with social media, write reviews, and let friends, high schools and universities know about my book, <a href=\"\/pages\/the-last-nomad\" title=\"The Last Nomad\"><em>The Last Nomad<\/em>.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LUdjCh",
+        "text_tTqYDW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "storyteller_blog_dnjPXj": {
       "type": "storyteller-blog",
       "settings": {
@@ -206,57 +236,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_jic9b9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LUdjCh": {
-          "type": "heading",
-          "settings": {
-            "heading": "True stories from the Somali people",
-            "heading_size": "h0"
-          }
-        },
-        "text_tTqYDW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As a child, I lived as a nomad in the desert of Somalia. After the death of my mother, I was sent to an orphanage in Mogadishu before fleeing the Somali civil war and eventually coming to North America as a refugee.<\/p><p>My memoir, <em>The Last Nomad<\/em>, details my amazing journey. But mine is just one of thousands of stories of brave, resilient people overcoming stark adversity. I am passionate about collecting and archiving these true, untold stories of the Somali people. With the help of my team both in Somalia and the US, we collect, translate and illustrate these stories to share with the rest of the world.<\/p><p>It takes time, energy and money to get these stories to you. The best way to support us is to share these stories with social media, write reviews, and let friends, high schools and universities know about my book, <a href=\"\/pages\/the-last-nomad\" title=\"The Last Nomad\"><em>The Last Nomad<\/em>.<\/a><\/p>"
-          }
-        },
-        "button_9tPqjQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_LUdjCh",
-        "text_tTqYDW",
-        "button_9tPqjQ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "storyteller_image_banner_3hDEjT",
+    "rich_text_jic9b9",
     "storyteller_blog_dnjPXj",
     "storyteller_media_X6YGBw",
     "storyteller_media_heN3UM",
     "rich_text_7AgMVU",
-    "storyteller_image_banner_7jYD3A",
-    "rich_text_jic9b9"
+    "storyteller_image_banner_7jYD3A"
   ]
 }
