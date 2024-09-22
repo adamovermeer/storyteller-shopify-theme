@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -10,6 +19,40 @@
         "show_author": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "newsletter_6RwmpP": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_Kp6LJt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Never miss a story.",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ifC4Dk": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know whenever I post a new story.<\/p>"
+          }
+        },
+        "email_form_9H7Xdp": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kp6LJt",
+        "paragraph_ifC4Dk",
+        "email_form_9H7Xdp"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "storyteller_image_banner_zdiQKY": {
@@ -25,24 +68,42 @@
         "text_mrXBmV": {
           "type": "text",
           "settings": {
-            "text": "<p>I was born in the desert of Somalia, where I spent my early childhood as a nomad. I emigrated to North America as a refugee from civil war, and now work as an infusion nurse in San Diego, California.<\/p>",
+            "text": "<p>As a child, I lived as a nomad in the desert of Somalia. After the death of my mother, I was sent to an orphanage in Mogadishu before fleeing the Somali civil war and eventually coming to North America as a refugee.<\/p><p>My memoir, <em>The Last Nomad<\/em>, details my amazing journey. But mine is just one of thousands of stories of brave, resilient people overcoming stark adversity. I am passionate about collecting and archiving these true, untold stories of the Somali people. With the help of my team both in Somalia and the US, we collect, translate and illustrate these stories to share with the rest of the world.<\/p><p>It takes time, energy and money to get these stories to you. The best way to support us is to share these stories with social media, write reviews, and let friends, high schools and universities know about my book, <a href=\"\/pages\/the-last-nomad\" title=\"The Last Nomad\"><em>The Last Nomad<\/em>.<\/a><\/p>",
             "text_style": "body"
+          }
+        },
+        "button_JxMH8C": {
+          "type": "button",
+          "settings": {
+            "button_label": "More about me →",
+            "button_link": "shopify:\/\/pages\/about-me",
+            "button_style_secondary": true
+          }
+        },
+        "button_7kFmPa": {
+          "type": "button",
+          "settings": {
+            "button_label": "The Last Nomad",
+            "button_link": "shopify:\/\/pages\/the-last-nomad",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_EN7rKX",
-        "text_mrXBmV"
+        "text_mrXBmV",
+        "button_JxMH8C",
+        "button_7kFmPa"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/parallax-background_0f10107d-842c-4f04-87d6-5539c7a7dee8.jpg",
+        "image": "shopify:\/\/shop_images\/parallax-background.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "color_scheme": "",
         "round_hero_image": true,
-        "flex_ratio": "3",
+        "flex_ratio": "2",
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "hero_image": "shopify:\/\/shop_images\/about-the-author-thumbnail.jpg",
@@ -60,6 +121,7 @@
   },
   "order": [
     "main",
+    "newsletter_6RwmpP",
     "storyteller_image_banner_zdiQKY"
   ]
 }
