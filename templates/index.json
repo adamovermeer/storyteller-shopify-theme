@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "storyteller_image_banner_3hDEjT": {
@@ -13,47 +22,15 @@
         "text_YTbKxi": {
           "type": "text",
           "settings": {
-            "text": "<p>“A brilliant and riveting book... The Last Nomad introduces the reader to the real lives in Somalia and the resilience of its people not only inside the nation but beyond.”<br\/><strong><br\/>—Abdi Nor Iftin, author of Call Me American<\/strong><\/p>",
+            "text": "<p>“Salh’s prose radiates with deep empathy and sensitivity, a reflection of the gift for storytelling she inherited from her poet grandmother. This stuns with its raw beauty.”<\/p><h3>—Publishers Weekly<\/h3><p>“Stunning . . . A clear-eyed, richly-remembered memoir that takes its readers on the journey of a lifetime.”<\/p><h3>—KQED<\/h3>",
             "text_style": "body"
-          }
-        },
-        "button_cLbXMW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read the first chapter",
-            "button_link": "shopify:\/\/products\/the-last-nomad",
-            "button_style_secondary": true
           }
         },
         "button_aDjYKQ": {
           "type": "button",
           "settings": {
             "button_label": "Where to buy",
-            "button_link": "shopify:\/\/products\/the-last-nomad",
-            "button_style_secondary": false
-          }
-        },
-        "button_AceG47": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "button_DKBYtU": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "button_Y68gbf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/the-last-nomad",
             "button_style_secondary": false
           }
         }
@@ -61,13 +38,10 @@
       "block_order": [
         "heading_hhnaUY",
         "text_YTbKxi",
-        "button_cLbXMW",
-        "button_aDjYKQ",
-        "button_AceG47",
-        "button_DKBYtU",
-        "button_Y68gbf"
+        "button_aDjYKQ"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/parallax-background.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -92,7 +66,7 @@
     "storyteller_blog_dnjPXj": {
       "type": "storyteller-blog",
       "settings": {
-        "heading": "Stories",
+        "heading": "My latest stories",
         "heading_size": "h1",
         "blog": "stories",
         "post_limit": 3,
@@ -102,61 +76,72 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "blog_view_all_text": "More stories",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn_BAAfXU": {
-      "type": "multicolumn",
+    "storyteller_media_X6YGBw": {
+      "type": "storyteller-media",
+      "settings": {
+        "heading": "Interviews and media",
+        "heading_size": "h1",
+        "blog": "media",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": false,
+        "blog_view_all_text": "View All",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "storyteller_media_heN3UM": {
+      "type": "storyteller-media",
+      "settings": {
+        "heading": "In the news",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 6,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": false,
+        "blog_view_all_text": "More articles",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7AgMVU": {
+      "type": "rich-text",
       "blocks": {
-        "column_F7aczM": {
-          "type": "column",
+        "button_LRmRGG": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_mfa7X4": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_PPWpcH": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "More news and media",
+            "button_link": "shopify:\/\/pages\/news-and-media",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "column_F7aczM",
-        "column_mfa7X4",
-        "column_PPWpcH"
+        "button_LRmRGG"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "storyteller_image_banner_7jYD3A": {
@@ -180,7 +165,7 @@
           "type": "button",
           "settings": {
             "button_label": "More about me →",
-            "button_link": "https:\/\/studioflora.io",
+            "button_link": "shopify:\/\/pages\/about-me",
             "button_style_secondary": false
           }
         },
@@ -188,7 +173,7 @@
           "type": "button",
           "settings": {
             "button_label": "The Last Nomad",
-            "button_link": "shopify:\/\/products\/the-last-nomad",
+            "button_link": "shopify:\/\/pages\/the-last-nomad",
             "button_style_secondary": true
           }
         }
@@ -200,8 +185,9 @@
         "button_bTGqch"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/parallax-background.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "color_scheme": "",
@@ -221,102 +207,56 @@
         "padding_bottom": 36
       }
     },
-    "storyteller_button_grid_QkReQc": {
-      "type": "storyteller-button-grid",
+    "rich_text_jic9b9": {
+      "type": "rich-text",
       "blocks": {
-        "button_WXPCdK": {
-          "type": "button",
+        "heading_LUdjCh": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "https:\/\/google.com",
-            "button_style_secondary": true
+            "heading": "True stories from the Somali people",
+            "heading_size": "h0"
           }
         },
-        "button_BnzfmM": {
+        "text_tTqYDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a child, I lived as a nomad in the desert of Somalia. After the death of my mother, I was sent to an orphanage in Mogadishu before fleeing the Somali civil war and eventually coming to North America as a refugee.<\/p><p>My memoir, <em>The Last Nomad<\/em>, details my amazing journey. But mine is just one of thousands of stories of brave, resilient people overcoming stark adversity. I am passionate about collecting and archiving these true, untold stories of the Somali people. With the help of my team both in Somalia and the US, we collect, translate and illustrate these stories to share with the rest of the world.<\/p><p>It takes time, energy and money to get these stories to you. The best way to support us is to share these stories with social media, write reviews, and let friends, high schools and universities know about my book, <a href=\"\/pages\/the-last-nomad\" title=\"The Last Nomad\"><em>The Last Nomad<\/em>.<\/a><\/p>"
+          }
+        },
+        "button_9tPqjQ": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
             "button_link": "",
-            "button_style_secondary": true
-          }
-        },
-        "button_rDCWWf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true
-          }
-        },
-        "button_AE8mwf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true
-          }
-        },
-        "button_Uz8zAD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true
-          }
-        },
-        "button_NQK3tR": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true
-          }
-        },
-        "button_9rCqVL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "button_WXPCdK",
-        "button_BnzfmM",
-        "button_rDCWWf",
-        "button_AE8mwf",
-        "button_Uz8zAD",
-        "button_NQK3tR",
-        "button_9rCqVL"
+        "heading_LUdjCh",
+        "text_tTqYDW",
+        "button_9tPqjQ"
       ],
       "settings": {
-      }
-    },
-    "storyteller_media_X6YGBw": {
-      "type": "storyteller-media",
-      "settings": {
-        "heading": "Stories",
-        "heading_size": "h1",
-        "blog": "media",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "storyteller_image_banner_3hDEjT",
     "storyteller_blog_dnjPXj",
-    "multicolumn_BAAfXU",
+    "storyteller_media_X6YGBw",
+    "storyteller_media_heN3UM",
+    "rich_text_7AgMVU",
     "storyteller_image_banner_7jYD3A",
-    "storyteller_button_grid_QkReQc",
-    "storyteller_media_X6YGBw"
+    "rich_text_jic9b9"
   ]
 }
