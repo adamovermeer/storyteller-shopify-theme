@@ -26,6 +26,14 @@
             "text_style": "body"
           }
         },
+        "button_JJ9MtH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/the-last-nomad",
+            "button_style_secondary": true
+          }
+        },
         "button_aDjYKQ": {
           "type": "button",
           "settings": {
@@ -38,6 +46,7 @@
       "block_order": [
         "heading_hhnaUY",
         "text_YTbKxi",
+        "button_JJ9MtH",
         "button_aDjYKQ"
       ],
       "settings": {
