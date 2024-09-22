@@ -96,7 +96,7 @@
     "storyteller_blog_dnjPXj": {
       "type": "storyteller-blog",
       "settings": {
-        "heading": "My latest stories",
+        "heading": "Latest stories",
         "heading_size": "h1",
         "blog": "stories",
         "post_limit": 3,
